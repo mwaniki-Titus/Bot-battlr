@@ -20,6 +20,11 @@ function App (){
       setEnlistedBots([...enlistedBots,bot]);
     }
   };
+  const handleRelease = (bot) => {
+    const updatedEnlistedBots = enlistedBots.filter((b) => b.id !== bot.id);
+    setEnlistedBots(updatedEnlistedBots);
+  };
+
 
   return (
     <div className='App'>
@@ -28,6 +33,7 @@ function App (){
         <BotCollection bots={bots} onEnlist={handleEnlist}/>
         <YourBotArmy
         enlistedBots={enlistedBots}
+        onRelease={handleRelease}
         onDischarge={handleDischarge}/>
            
       </div>
