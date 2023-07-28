@@ -2,12 +2,13 @@ import React from "react";
 
 const BotCard = ({}) => {
   return(
-    <div>
-      <img src={bot.avatar_url} alt={BotCard.name}/>
+    <div className="bot-card">
+      <img src={bot.avatar_url} alt={bot.name}/>
       <h3>{bot.name}</h3>
       <p>Health: {bot.health}</p>
       <p>Damage: {bot.damage}</p>
       <p>Armor: {bot.armor}</p>
+      <button onClickl={onEnlist}>Enlist</button>
     </div>
   );
 };
