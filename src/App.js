@@ -14,14 +14,23 @@ function App (){
     .catch((error) => console.error('Error fetching data:',error));
 
   }, []);
+
+  const handleEnlist = (bot) => {
+    if (!enlistedBots.includes(bot)) {
+      setEnlistedBots([...enlistedBots,bot]);
+    }
+  };
+
   return (
     <div className='App'>
       <h1>Bot Battlr</h1>
       <div className='container'>
-        <YourBotArmy/>
+        <BotCollection bots={bots} onEnlist={handleEnlist}/>
+        <YourBotArmy
+        enlistedBots={enlistedBots}
+        onDischarge={handleDischarge}/>
            
       </div>
-
     </div>
   );
 }
