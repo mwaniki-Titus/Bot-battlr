@@ -28,7 +28,6 @@ function App (){
     fetch(`http://localhost:8001/bots/${bot.id}`,{
       method:'DELETE',
     })
-  }
       .then((response) => response.json())
       .then(() => {
         const updatedBots = bots.filter((b) => b.id !== bot.id);
@@ -43,9 +42,9 @@ function App (){
       <div className='container'>
         <BotCollection bots={bots} onEnlist={handleEnlist}/>
         <YourBotArmy
-        enlistedBots={enlistedBots}
-        onRelease={handleRelease}
-        onDischarge={handleDischarge}/>
+          enlistedBots={enlistedBots}
+          onRelease={handleRelease}
+          onDischarge={handleDischarge}/>
            
       </div>
     </div>

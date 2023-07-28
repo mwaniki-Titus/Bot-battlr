@@ -1,9 +1,10 @@
 import React, {usestate} from "react";
 import BotCard from "./BotCard";
 
-const YourBotArmy =({enlistedBots, onRealease, onDischarge})
+const YourBotArmy =({enlistedBots, onRealease, onDischarge}) => {
 
 return (
+
   <div className="your-bot-army">
     <h2>Your Bot Army</h2>
     <div className="bot-cards">
@@ -18,6 +19,6 @@ return (
 
     </div>
   </div>
-)
-
+ );
+};
 export default YourBotArmy;
