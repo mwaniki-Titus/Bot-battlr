@@ -24,7 +24,18 @@ function App (){
     const updatedEnlistedBots = enlistedBots.filter((b) => b.id !== bot.id);
     setEnlistedBots(updatedEnlistedBots);
   };
-
+  const handleDischarge = (bot) => {
+    fetch(`http://localhost:8001/bots/${bot.id}`,{
+      method:'DELETE',
+    })
+  }
+      .then((response) => response.json())
+      .then(() => {
+        const updatedBots = bots.filter((b) => b.id !== bot.id);
+        setBots(updatedBots)
+      })
+      .catch((error) => console.error('error discharging bot:', error));
+    };
 
   return (
     <div className='App'>
