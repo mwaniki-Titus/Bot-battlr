@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Bot Battlr</h1>
+      <h1>Bot Battlr time to conquer</h1>
       <div className="container">
         <BotCollection bots={bots} onEnlist={handleEnlist} />
         <YourBotArmy
