@@ -973,18 +973,6 @@
       "updated_at": "2018-10-02T19:55:12.245Z"
     },
     {
-      "id": 182,
-      "name": "p-44",
-      "health": 70,
-      "damage": 31,
-      "armor": 82,
-      "bot_class": "Defender",
-      "catchphrase": "111101011000001011001011001001101000",
-      "avatar_url": "https://robohash.org/vitaeporrovoluptas.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.271Z",
-      "updated_at": "2018-10-02T19:55:12.271Z"
-    },
-    {
       "id": 183,
       "name": "yDg-64",
       "health": 58,
@@ -1019,18 +1007,6 @@
       "avatar_url": "https://robohash.org/culpavoluptatemdeleniti.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.339Z",
       "updated_at": "2018-10-02T19:55:12.339Z"
-    },
-    {
-      "id": 186,
-      "name": "G-17",
-      "health": 50,
-      "damage": 20,
-      "armor": 98,
-      "bot_class": "Defender",
-      "catchphrase": "1001111001000111010111110010111101111",
-      "avatar_url": "https://robohash.org/isteaeos.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.348Z",
-      "updated_at": "2018-10-02T19:55:12.348Z"
     },
     {
       "id": 187,
@@ -1103,18 +1079,6 @@
       "avatar_url": "https://robohash.org/nullaconsequatursuscipit.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.432Z",
       "updated_at": "2018-10-02T19:55:12.432Z"
-    },
-    {
-      "id": 194,
-      "name": "rw-63",
-      "health": 60,
-      "damage": 98,
-      "armor": 26,
-      "bot_class": "Assault",
-      "catchphrase": "11101101111011101001100000011100101110",
-      "avatar_url": "https://robohash.org/molestiaenihilautem.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.463Z",
-      "updated_at": "2018-10-02T19:55:12.463Z"
     }
   ]
 }

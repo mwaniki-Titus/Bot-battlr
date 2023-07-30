@@ -8,6 +8,7 @@ const BotCard = ({ bot, onEnlist }) => {
       <p>Health: {bot.health}</p>
       <p>Damage: {bot.damage}</p>
       <p>Armor: {bot.armor}</p>
+      <p>Bot-Class: {bot.botclass}</p>
       <button onClick={onEnlist}>Enlist</button>
     </div>
   );
