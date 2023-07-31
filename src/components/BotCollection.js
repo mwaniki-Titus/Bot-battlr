@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React from "react";
 import BotCard from './BotCard';
 
 const BotCollection = ({ bots, onEnlist }) => {
